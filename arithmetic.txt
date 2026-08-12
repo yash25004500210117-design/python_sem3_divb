@@ -1,0 +1,13 @@
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+add = a + b
+sub = a - b
+
+print("Addition =", add)
+print("Subtraction =", sub)
+
+Enter first number: 10
+Enter second number: 5
+Addition = 15
+Subtraction = 5

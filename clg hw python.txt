@@ -1,0 +1,35 @@
+homework python
+
+1)
+
+age = int(input("Enter your age: "))
+
+if age < 5:
+    print("Ticket Price: Free")
+elif age <= 12:
+    print("Ticket Price: ₹100")
+elif age <= 59:
+    print("Ticket Price: ₹200")
+else:
+    print("Ticket Price: ₹150")
+
+Enter your age: 20
+Ticket Price: ₹200
+
+2)
+
+marks = int(input("Enter your marks: "))
+
+if marks >= 90:
+    print("Grade A")
+elif marks >= 80:
+    print("Grade B")
+elif marks >= 70:
+    print("Grade C")
+elif marks >= 60:
+    print("Grade D")
+else:
+    print("Grade F")
+
+Enter your marks:  75
+Grade C
